@@ -70,3 +70,37 @@ h2 {
 #services .card{
     margin-bottom: 1.5rem;
 }
+
+/*media queries*/
+
+/*medium devices (tablets, 768px and up(*/
+@media screen and (min-width:768px) {
+    /*make all service cards same height for consistency*/
+    #services .card-body{
+        min-height: 191px;
+    }
+}
+
+/*large devices*/
+@media screen and (min-width:992px) {
+    /*make all service cards same height for consistency*/
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/*xl devices*/
+@media screen and (min-width: 1200px) {
+     /*make all service cards same height for consistency*/
+     #services .card-body{
+        min-height: 220px;
+    }   
+}
+
+/*xxl devices*/
+@media screen and (min-width: 1400px) {
+    /*make all service cards same height for consistency*/
+    #services .card-body{
+       min-height: 195px;
+   }   
+}
